@@ -4,9 +4,9 @@ import bandcampIcon from "../imgs/icons/bandcamp-icon.svg";
 
 const NewAlbum = () => {
   return (
-    <section className="mainsite w-[75%] ml-0 mr-auto bg-[url('./imgs/background-trim.png')] h-screen bg-cover bg-center p-12">
-      <div className="new_album_wrapper flex justify-between">
-        <h1 className="text-5xl font-medium w-40 ">
+    <section className="mainsite lg:w-[75%] ml-0 mr-auto bg-[url('./imgs/background-trim.png')] h-screen bg-cover bg-center p-6">
+      <div className="new_album_wrapper flex flex-col lg:flex-row justify-between gap-10 lg:gap-0 bg-dobeige lg:bg-transparent bg-opacity-70 rounded-xl">
+        <h1 className="text-5xl tracking-widest w-56 ">
           A SCOTTISH AMERICAN SONGBOOK DAVID OGILVY
         </h1>
         <div className="flex flex-col gap-8 items-end justify-center">
