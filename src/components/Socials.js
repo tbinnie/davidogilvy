@@ -1,0 +1,22 @@
+<div className="socials flex flex-col gap-4">
+<SocialLink
+  link="https://www.instagram.com/davidjogilvy/"
+  img={instaIcon}
+  text="Instagram"
+/>
+<SocialLink
+  link="https://www.facebook.com/davidogilvymusician"
+  img={facebookIcon}
+  text="Facebook"
+/>
+<SocialLink
+  link="https://open.spotify.com/artist/2C8TjSIjGzbS1viY8sFJqQ?si=KF1UEuLKQCCtM757KPSf0Q"
+  img={spotifyIcon}
+  text="Spotify"
+/>
+<SocialLink
+  link="https://davidogilvy.uk/"
+  img={bandcampIcon}
+  text="Bandcamp"
+/>
+</div>

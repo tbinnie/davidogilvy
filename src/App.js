@@ -1,3 +1,4 @@
+import Bio from "./components/Bio";
 import Head from "./components/Head";
 import NewAlbum from "./components/NewAlbum";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <NewAlbum />
       <Head />
+      <Bio />
     </div>
   );
 }
