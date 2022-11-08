@@ -1,24 +1,20 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import SocialLink from './SocialLink'
-
-import spotifyIcon from '../imgs/icons/spotify-icon.svg'
-import bandcampIcon from '../imgs/icons/bandcamp-icon.svg'
-import instaIcon from '../imgs/icons/instagram-icon.svg'
-import facebookIcon from '../imgs/icons/facebook-icon.svg'
-import rightArrow from '../imgs/icons/right-arrow-icon.svg'
-import Bio from './Bio'
 const Head = () => {
   return (
-    <div className="head__wrapper  flex gap-8 justify-end hidden lg:block absolute top-12 right-12">
-      <ul className='flex text-3xl font-semibold gap-16'>
-        <li>Bio</li>
-        <li>Shop</li>
-        <li>Gigs</li>
-        <li>Social</li>
+    <div className="head__wrapper  flex justify-end absolute top-8 left-8">
+      <ul className="flex text-sm flex-col tracking-wider text-gray-400">
+        <li className="hover:text-black">
+          <Link to="/bio">BIO</Link>
+        </li>
+        <li className="hover:text-black">STORE</li>
+        <li className="hover:text-black">GIGS</li>
+        <li className="hover:text-black">NEWSLETTER</li>
+        <li className="hover:text-black">SOCIAL</li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Head
+export default Head;
