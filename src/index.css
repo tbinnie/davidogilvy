@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'buch';
   src: local('buch'),
-  url('./fonts/test-soehne-mono-buch.woff2') format('woff2'); 
+  url('./fonts/soehne-mono-buch.woff2') format('woff2'); 
 }
 
 body {
