@@ -41,23 +41,29 @@ const Bio = () => {
             (2005) and Heaven and Earth (2008) carried on and developed these
             strains. <br></br>He produced and co wrote his long time
             collaborator Christina Kulukundis’ self titled album (2005).{" "}
-            <br></br>He has also scored the music for:<br></br> The controversial
-            American documentary The Toughest Sheriff in America.<br></br> Two
-            documentaries by Hannah Rothschild (High Society: The Wonderful
-            World of Nicky Haslam, Peter Mandelson: The Real PM?) shown as part
-            of the BBC’s Storyville series.<br></br> He also wrote the score for the
-            art-house film of Edward St Aubyn’s Booker-nominated novel Mother’s
-            Milk.<br></br> David’s songs are featured in the Hollywood film, The Flock,
-            starring Richard Gere, Gaby Dellal’s film Angel’s Crest.<br></br> In
-            2013 he started The Live Salon, as a showcase for purely acoustic
-            music, and spoken word, drawing on the 19th century tradition of the
-            musical salon. Writers and poets such as John Stammers, Alan Jenkins
-            and Cressida Connolly, regularly join the eclectic group of
-            musicians.<br></br>
+            <br></br>He has also scored the music for:<br></br> The
+            controversial American documentary The Toughest Sheriff in America.
+            <br></br> Two documentaries by Hannah Rothschild (High Society: The
+            Wonderful World of Nicky Haslam, Peter Mandelson: The Real PM?)
+            shown as part of the BBC’s Storyville series.<br></br> He also wrote
+            the score for the art-house film of Edward St Aubyn’s
+            Booker-nominated novel Mother’s Milk.<br></br> David’s songs are
+            featured in the Hollywood film, The Flock, starring Richard Gere,
+            Gaby Dellal’s film Angel’s Crest.<br></br> In 2013 he started The
+            Live Salon, as a showcase for purely acoustic music, and spoken
+            word, drawing on the 19th century tradition of the musical salon.
+            Writers and poets such as John Stammers, Alan Jenkins and Cressida
+            Connolly, regularly join the eclectic group of musicians.<br></br>
             He has recently completed a new album of 14 songs entitled ‘A
             Scottish American Songbook’ released this September.
           </p>
           <div className="socials flex flex-col">
+            <iframe
+              scrolling="no"
+              style={{ border: 0, width: "100%", height: "50px" }}
+              src="https://bandcamp.com/band_follow_button_deluxe/261596744"
+            ></iframe>
+            <div className="h-8"></div>
             <SocialLink
               link="https://www.instagram.com/davidjogilvy/"
               img={instaIcon}
@@ -72,11 +78,6 @@ const Bio = () => {
               link="https://open.spotify.com/artist/2C8TjSIjGzbS1viY8sFJqQ?si=KF1UEuLKQCCtM757KPSf0Q"
               img={spotifyIcon}
               text="Spotify"
-            />
-            <SocialLink
-              link="https://davidogilvy.uk/"
-              img={bandcampIcon}
-              text="Bandcamp"
             />
           </div>
         </div>
