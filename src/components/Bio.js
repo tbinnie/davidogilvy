@@ -48,7 +48,7 @@ const Bio = () => {
             shown as part of the BBC’s Storyville series.<br></br> He also wrote
             the score for the art-house film of Edward St Aubyn’s
             Booker-nominated novel Mother’s Milk.<br></br> David’s songs are
-            featured in the Hollywood film, The Flock, starring Richard Gere,
+            featured in the Hollywood film, The Flock, starring Richard Gere and
             Gaby Dellal’s film Angel’s Crest.<br></br> In 2013 he started The
             Live Salon, as a showcase for purely acoustic music, and spoken
             word, drawing on the 19th century tradition of the musical salon.
@@ -74,11 +74,16 @@ const Bio = () => {
               img={facebookIcon}
               text="Facebook"
             />
-            <SocialLink
-              link="https://open.spotify.com/artist/2C8TjSIjGzbS1viY8sFJqQ?si=KF1UEuLKQCCtM757KPSf0Q"
-              img={spotifyIcon}
-              text="Spotify"
-            />
+            <iframe
+              src="https://open.spotify.com/follow/1/?uri=spotify:artist:2C8TjSIjGzbS1viY8sFJqQ?si=Hn_3zDbWSD604eJ0ageGhA&size=detail&theme=light"
+              width="300"
+              height="56"
+              scrolling="no"
+              frameborder="0"
+              style={{border:'none', overflow:'hidden'}}
+              allowtransparency="true"
+            ></iframe>
+            F
           </div>
         </div>
         <img
