@@ -74,16 +74,11 @@ const Bio = () => {
               img={facebookIcon}
               text="Facebook"
             />
-            <iframe
-              src="https://open.spotify.com/follow/1/?uri=spotify:artist:2C8TjSIjGzbS1viY8sFJqQ?si=Hn_3zDbWSD604eJ0ageGhA&size=detail&theme=light"
-              width="300"
-              height="56"
-              scrolling="no"
-              frameborder="0"
-              style={{border:'none', overflow:'hidden'}}
-              allowtransparency="true"
-            ></iframe>
-            F
+            <SocialLink
+              link="https://open.spotify.com/artist/2C8TjSIjGzbS1viY8sFJqQ?si=mBTIme36RCW9hqyHmrcDkg"
+              img=""
+              text="Spotify"
+            />
           </div>
         </div>
         <img
