@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const listItems = ["GIGS", "NEWSLETTER", "SOCIAL"];
+const listItems = ["GIGS", "NEWSLETTER"];
 
 export default function Header({ selected }: { selected?: string }) {
   return (
@@ -21,8 +21,11 @@ export default function Header({ selected }: { selected?: string }) {
         >
           <Link href="/bio">BIO</Link>
         </li>
-        <a href="https://davidogilvy.uk/" target="_blank">
+        <a href="https://davidogilvy.bandcamp.com/merch" target="_blank">
           <li className="hover:text-black">STORE</li>
+        </a>
+        <a href="https://www.instagram.com/davidjogilvy/" target="_blank">
+          <li className="hover:text-black">SOCIALS</li>
         </a>
         {listItems.map((item) => (
           <li key={item} className="group relative">
