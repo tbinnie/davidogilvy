@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 
 const listItems = ["GIGS", "NEWSLETTER"];
-const listItems = ["GIGS", "NEWSLETTER"];
 
 export default function Header({ selected }: { selected?: string }) {
   return (
